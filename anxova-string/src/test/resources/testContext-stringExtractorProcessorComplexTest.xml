@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="processor" class="org.nms.anxova.string.process.impl.StringExtractorProcessor">
+    	<property name="prefixes">
+    		<list>
+    			<bean class="java.lang.String">
+    				<constructor-arg value="S"></constructor-arg>
+    			</bean>
+    		</list>
+    	</property>
+    	<property name="postfixes">
+    		<list>
+    			<bean class="java.lang.String">
+    				<constructor-arg value="wi"></constructor-arg>
+    			</bean>
+    			<bean class="java.lang.String">
+    				<constructor-arg value="th"></constructor-arg>
+    			</bean>
+    		</list>
+    	</property>
+    	<property name="postfixesFilterType" value="AND"/>
+    	<property name="prefixesFilterType" value="AND"/>
+    </bean>
+    
+    <bean id="element" class="org.nms.anxova.process.beans.BaseElement">
+    	<constructor-arg value="String with some values"></constructor-arg>
+    </bean>
+    
+    <bean id="resultValue" class="java.lang.String">
+    	<constructor-arg value="String with"/>
+    </bean>
+</beans>

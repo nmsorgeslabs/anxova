@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean id="initElement" class="org.nms.anxova.process.beans.BaseElement">
+    	<constructor-arg value="http://www.mcanime.net/foro/viewforum.php?f=117"></constructor-arg>
+    </bean>
+    
+    <bean id="processor" class="org.nms.anxova.html.process.WebPageProcessor">
+    </bean>
+    
+    <bean id="webElementProcessor" class="org.nms.anxova.html.process.WebPageParseProcessor">
+    	<property name="parseFilter" value="h5"/>
+    </bean>
+</beans>

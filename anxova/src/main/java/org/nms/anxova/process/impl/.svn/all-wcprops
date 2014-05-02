@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/67/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl
+END
+AbstractProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/67/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/AbstractProcessor.java
+END
+AbstractBaseProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/67/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/AbstractBaseProcessor.java
+END
+DelayProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/78/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/DelayProcessor.java
+END
+LogProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/78/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/LogProcessor.java
+END
+AbstractListProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/78/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/AbstractListProcessor.java
+END
+ChainedProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/78/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/ChainedProcessor.java
+END
+AbstractBaseListProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/78/branches/v.1.1/anxova/src/main/java/org/nms/anxova/process/impl/AbstractBaseListProcessor.java
+END

@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.nms</groupId>
+  <artifactId>anxova-string</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>anxova-string</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   
+    <jsoup.version>1.6.1</jsoup.version>
+   
+    <!-- Logging -->
+    <log4j.version>1.2.16</log4j.version>
+    <slf4j.version>1.5.6</slf4j.version>
+    
+    <!-- TESTING dependencies versions -->
+    <junit.version>4.4</junit.version>
+    <jmock.version>2.5.1</jmock.version>
+    <spring.version>2.5.6.SEC02</spring.version>
+    
+    <!-- Anxova -->
+    <anxova.version>1.0</anxova.version>
+    
+  </properties>
+
+  <dependencies>
+  	<dependency>
+      <groupId>org.nms</groupId>
+      <artifactId>anxova</artifactId>
+      <version>${anxova.version}</version>
+      <scope>compile</scope>
+    </dependency>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- SPRING dependencies -->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring</artifactId>
+  		<version>${spring.version}</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-test</artifactId>
+  		<version>${spring.version}</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context-support</artifactId>
+  		<version>${spring.version}</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+</project>
