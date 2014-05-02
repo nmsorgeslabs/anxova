@@ -11,6 +11,6 @@
   	<module>../anxova-rss</module>
   	<module>../anxova-string</module>
   	<module>../anxova-html</module>
-  	<module>../common</module>
+  	<module>../anxova-common</module>
   </modules>
 </project>
